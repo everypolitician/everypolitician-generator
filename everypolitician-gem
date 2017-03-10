@@ -23,7 +23,7 @@ rvm:
 before_install: gem install bundler -v 1.13.5
 TRAVIS_YML
 
-rubocop --auto-correct --auto-gen-config --fail-level F --format s
+rubocop --auto-correct --fail-level F --format s
 
 cat <<RUBOCOP_YML > .rubocop.yml
 AllCops:
@@ -31,7 +31,6 @@ AllCops:
 
 inherit_from:
   - https://raw.githubusercontent.com/everypolitician/everypolitician-data/master/.rubocop_base.yml
-  - .rubocop_todo.yml
 RUBOCOP_YML
 
 cat <<CHANGELOG > CHANGELOG.md
