@@ -20,7 +20,7 @@ rvm:
   - 2.1
   - 2.2
   - 2.3.3
-before_install: gem install bundler -v 1.13.5
+before_install: gem install bundler -v $(bundle --version | awk '{print $3}')
 script:
   - bundle exec rake
   - bash <(curl -fsSL https://github.com/everypolitician/ensure-regression-tests/raw/master/ensure-regression-tests)
