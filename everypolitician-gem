@@ -49,7 +49,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add notes about new features here.
 CHANGELOG
 
-git commit -m "Initial commit"
+git commit -m "Create $gemname with $(basename $0)"
 
 echo
 
