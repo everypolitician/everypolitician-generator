@@ -58,5 +58,5 @@ echo "Created $gemname in $(pwd)"
 echo "Next steps:"
 echo
 echo "- [ ] Create $gemname repository on GitHub"
-echo "- [ ] Install the Travis CI gem and run `travis enable` from the root dir of the gem"
+echo "- [ ] Install the Travis CI gem and run 'travis enable' from the root dir of the gem"
 echo "- [ ] Fill out $gemname.gemspec"
